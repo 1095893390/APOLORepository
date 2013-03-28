@@ -1,0 +1,7 @@
+[samba]
+name=SerNet Samba Team packages (RedHat Enterprise Linux 5)
+type=rpm-md
+baseurl=http://ftp.sernet.de/pub/samba/3.6/centos/5
+#http://ftp.sernet.de/pub/samba/3.6/centos/5
+enabled=1
+gpgcheck=0
