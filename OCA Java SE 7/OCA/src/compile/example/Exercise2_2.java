@@ -93,7 +93,7 @@ public class Exercise2_2 {
 		System.out.println(s2);
 		System.out.println(s3);
 		
-		// startWith example .... after continue
+		// startsWith example .... after continue
 		
 		
 
