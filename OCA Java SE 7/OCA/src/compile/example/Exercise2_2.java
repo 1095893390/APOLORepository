@@ -93,7 +93,81 @@ public class Exercise2_2 {
 		System.out.println(s2);
 		System.out.println(s3);
 		
-		// startsWith example .... after continue
+		// startsWith example
+		System.out.println(" startsWith example ".toUpperCase());
+		boolean b1 = pirateMessage.startsWith("  Buried Treasure"); // true 
+		boolean b2 = pirateMessage.startsWith(" Discovered"); // false
+		boolean b3 = pirateMessage.startsWith("Treasure", 8); // false
+		boolean b4 = pirateMessage.startsWith("Treasure", 9); // true
+		
+		System.out.println(b1);
+		System.out.println(b2);
+		System.out.println(b3);
+		System.out.println(b4);
+		
+		// endsWith example
+		System.out.println(" endsWith example ".toUpperCase());
+		boolean e1 = pirateMessage.endsWith("Treasure Chest! "); // true
+		boolean e2 = pirateMessage.endsWith("Treasure Chest"); //false
+		
+		System.out.println(e1);
+		System.out.println(e2);
+		
+		
+		// substring example
+		System.out.println(" substring example ".toUpperCase());
+		
+		String ss1 = pirateMessage.substring(9); 	// Treasure Chest!
+		String ss2 = pirateMessage.substring(9,10); // T
+		String ss3 = pirateMessage.substring(9,23); // Treasure Chest
+		//String ss4 = pirateMessage.substring(9,8); 	// out of range
+		String ss5 = pirateMessage.substring(9,9);	// Blank
+		
+		System.out.println(ss1);
+		System.out.println(ss2);
+		System.out.println(ss3);
+		//System.out.println(ss4);
+		System.out.println(ss5);
+		
+		// trim example
+		System.out.println(" trim example ".toUpperCase());
+		
+		// Unicode character \u0020. (The whitespace character correspond)
+		System.out.println(" ".equals("\u0020")); //true
+		
+		String t = pirateMessage.trim();
+		
+		System.out.println(t);
+		
+		// toLowerCase example
+		System.out.println(" toLowerCase example ".toUpperCase());
+		String l1 = pirateMessage.toLowerCase();
+		
+		System.out.println(l1);
+		
+		// toUpperCase example
+		System.out.println(" toUpperCase example ".toUpperCase());
+		String u1 = pirateMessage.toUpperCase();
+				
+		System.out.println(u1);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 
