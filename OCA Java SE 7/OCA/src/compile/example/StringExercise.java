@@ -1,7 +1,7 @@
 package compile.example;
 
 
-public class Exercise2_2 {
+public class StringExercise {
 
 	/**
 	 * @param args
@@ -152,6 +152,27 @@ public class Exercise2_2 {
 		System.out.println(u1);
 		
 		
+		/////////////////////////////////
+		// Chaining
+		////////////////////////////////
+		
+		String msg = " Maroon the First Mate with a flagon of water and a pistol!  ";
+		
+		// Three changes need to be made to adjust the string as desired
+		
+		// Trim the leading and trailing whitespace
+		// msg = msg.trim();
+		
+		// replace the substring First Mate with Quartermaster
+		// msg = msg.replace("First Mate", "Quartermaster");
+		
+		// remove and a pistol!
+		// msg = msg.substring(0,47);
+		
+		// add period with the string concatenation operator
+		msg = msg.trim().replace("First Mate", "Quartermaster").substring(0,47) + ".";
+		
+		System.out.println(msg);
 		
 		
 		
