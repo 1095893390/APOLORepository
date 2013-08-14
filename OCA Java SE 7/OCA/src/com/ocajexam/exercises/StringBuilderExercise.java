@@ -1,4 +1,4 @@
-package com.ocajaexam.exercises;
+package com.ocajexam.exercises;
 
 
 public class StringBuilderExercise {
