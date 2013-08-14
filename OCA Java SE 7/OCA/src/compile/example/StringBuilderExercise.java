@@ -34,6 +34,31 @@ public class StringBuilderExercise {
 		///// Insert Method
 		////////////////////////////////
 		
+		StringBuilder mateyMessage2 = new StringBuilder("Shiver Me Tim");		
+		mateyMessage2.insert(13, " and Bricks");
+		System.out.println(mateyMessage2);
+		
+		
+		/////////////////////////////////
+		///// Delete Method
+		////////////////////////////////
+		
+		System.out.println(mateyMessage.delete(19, 29));
+		
+		/////////////////////////////////
+		///// Delete Char At Method
+		////////////////////////////////
+		
+		System.out.println(mateyMessage.deleteCharAt(17));
+		
+		/////////////////////////////////
+		///// Reverse Method
+		////////////////////////////////
+		
+		StringBuilder builder = new StringBuilder("live");
+		builder.reverse();
+		System.out.println(builder.toString().toUpperCase() + "!");
+		
 		
 
 	}
