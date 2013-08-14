@@ -1,4 +1,4 @@
-package compile.example;
+package com.ocajaexam.exercises;
 
 import java.util.Properties;
 
